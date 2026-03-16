@@ -287,11 +287,18 @@ p + p { margin-top: 0.85rem; }
 .post-header { margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
 .post-header h1 { margin-bottom: 0.75rem; }
 .post-meta { font-size: 0.825rem; color: var(--text-dim); display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.post-body { max-width: 660px; }
+.post-body { width: 100%; }
 .post-body > * + * { margin-top: 1rem; }
 .post-body h2 { font-size: 1.15rem; margin-top: 2rem; }
 .post-body h3 { font-size: 1rem; margin-top: 1.5rem; }
-.post-body p, .post-body li { font-size: 0.95rem; color: #333; text-align: justify; }
+.post-body p, .post-body li { 
+  font-size: 0.95rem; 
+  color: #333; 
+  text-align: justify; 
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
 .post-body ul { list-style: disc; padding-left: 1.25rem; }
 .post-body ol { list-style: decimal; padding-left: 1.25rem; }
 .post-body blockquote {
