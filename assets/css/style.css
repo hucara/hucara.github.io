@@ -238,10 +238,14 @@ p + p { margin-top: 0.85rem; }
 .timeline-title { font-weight: 600; margin-bottom: 0.1rem; }
 .timeline-company { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.5rem; }
 .timeline-desc { font-size: 0.875rem; color: var(--text-muted); }
+.timeline-desc ul { list-style: disc; padding-left: 1rem; }
+.timeline-desc li { margin-bottom: 0.35rem; }
+.timeline-desc li:last-child { margin-bottom: 0; }
 
 /* Skills sidebar */
 .skill-list { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.75rem; }
 .skill-list li { font-size: 0.875rem; color: var(--text-muted); }
+.skill-list strong { color: var(--text); font-weight: 600; }
 
 /* ============================================================
    PROJECTS PAGE
